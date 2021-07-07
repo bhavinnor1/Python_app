@@ -1,3 +1,6 @@
+#use different email id and password (on line 151,152)
+#enable less secure app access in your Manage your Google account-> Security -> Scroll down click turn on less secure app access
+#follow the above instructions and then app will start properly working
 import tkinter as tk
 import tkinter.font as font
 from tkinter import *
