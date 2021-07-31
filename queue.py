@@ -36,6 +36,7 @@ class queue:
 		for i in range(len(self.l)-1, -1,-1):
 			l_hold.append(self.l[i])
 		self.l=l_hold
+		return self.l
 		
 	def __repr__(self):
 		return str(self.l)
