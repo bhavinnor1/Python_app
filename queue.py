@@ -1,4 +1,3 @@
-l=[1,2,3,4]
 class queue:
 	def __init__(self,l):
 		self.l=l
@@ -40,8 +39,6 @@ class queue:
 		
 	def __repr__(self):
 		return str(self.l)
-	
+
+l=[1,2,3,4]
 a = queue(l)
-a.print_q()
-a.reverse()
-a.print_q()
