@@ -148,11 +148,10 @@ def login_chk():
 	global username, password, chkvar
 	checking()
 	usr = userentry.get()
-	
 	pwd = passwordtxt.get()
 	if len(usr)<1:
-		usr="fybscit2021@gmail.com"
-		pwd="python@123"
+		usr="youremail@gmail.com"
+		pwd="your_password"
 		messagebox.showinfo("B Mail", "Shortcut Used.\nUsing default Email\n(fybscit2021@gmail.com).")
 		username=usr
 		password=pwd
